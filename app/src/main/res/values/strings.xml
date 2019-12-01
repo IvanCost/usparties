@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">USParties</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dicaUm">Fique por dentro</string>
+    <string name="dicaUmDescr">Saiba de todas as festas que acontecem na USP e tenha acesso a informações importantes sobre elas</string>
+
+    <string name="dicaDois">Lucre</string>
+    <string name="dicaDoisDescr">Saiba como lucrar com a venda de ingressos em comparação aos preços dos lotes atuais das festas</string>
+
+    <string name="dicaTres">Compre mais barato</string>
+    <string name="dicaTresDescr">Consiga negociar a compra de ingressos com pessoas interessadas em vender ingressos já comprados</string>
+
+</resources>

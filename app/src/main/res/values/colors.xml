@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2C915</color>
+    <color name="colorPrimaryDark">#F2C915</color>
+    <color name="colorAccent">#F2C915</color>
+    <color name="azul_app">#0095FB</color>
+    <color name="cinza_txt">#333333</color>
+    <color name="azul_btn_zona">#10E7F9</color>
+    <color name="cor_botao_1">#10E6F9</color>
+    <color name="cor_botao_2">#0095FB</color>
+    <color name="white">#FFF</color>
+    <color name="cinza">#D6D6D6</color>
+    <color name="verde">#98D14B</color>
+    <color name="red">#FF0000</color>
+    <color name="cor_um_btn_Cad">#003CAA</color>
+    <color name="cor_dois_btn_Cad">#011367</color>
+    <color name="corApp">#F2C915</color>
+    <color name="corTextosCards">#E7A608</color>
+    <color name="backgroundCreme">#FFF9EE</color>
+    <color name="lucasCinza">#333333</color>
+    <color name="vermelhoNew">#9B444E</color>
+    <color name="cinzaLucas">#F3F2F2</color>
+</resources>

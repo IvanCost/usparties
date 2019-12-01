@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.heinrichreimersoftware:material-intro:1.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dcac69cc7b02d9d7d9a0f24a35333bb/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dcac69cc7b02d9d7d9a0f24a35333bb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dcac69cc7b02d9d7d9a0f24a35333bb/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

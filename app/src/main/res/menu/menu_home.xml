@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/icon_novos"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Feed"></item>
+
+    <item android:id="@+id/icon_aceitos"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        android:title="Whatever" />
+
+    <item android:id="@+id/icon_realizados"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Ingressos" />
+
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="40dp" />
+
+    <solid
+        android:color="@color/azul_btn_zona"
+        android:endColor="@color/azul_app">
+    </solid>
+
+
+
+</shape>

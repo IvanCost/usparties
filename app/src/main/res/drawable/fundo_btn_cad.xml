@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="50dp" />
+
+    <gradient
+        android:startColor="@color/cor_um_btn_Cad"
+        android:endColor="@color/cor_dois_btn_Cad">
+    </gradient>
+
+
+</shape>

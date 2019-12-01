@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    tools:context=".fragments.cardsDefault.CardFesta">
+
+    <LinearLayout
+        android:id="@+id/li_detalhes"
+        android:background="@drawable/fundo_detalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/cartazFesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/festadefault"
+                android:outlineProvider="background"
+                app:riv_corner_radius_top_left="15dp"
+                app:riv_corner_radius_top_right="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/li_valor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/tviNomeFesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pancadasi"
+                    android:layout_weight="1"
+                    android:textColor="@color/vermelhoNew"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvi_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_tipoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preço do lote atual: "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tviPrecoLote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Casa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_dataHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data: "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tviData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="13/05/2018" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hora: "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tviHora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4h da tarde" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endereço: "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tviEndereco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Panelas e Pratos" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_divisorDetPed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:visibility="gone">
+
+                <include layout="@layout/divisor"></include>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="area_total"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvi_areaTotalDet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="130m2"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="area_construida"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvi_areaConstruidaDet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="48m2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_botoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/btnVender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/fundo_botao_negar"
+                    android:text="Vender"
+                    android:textColor="@color/vermelhoNew"/>
+
+                <Button
+                    android:id="@+id/btnComprar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/fundo_botao"
+                    android:text="Comprar"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
